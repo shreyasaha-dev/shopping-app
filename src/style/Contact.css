@@ -1,0 +1,90 @@
+.contact-top {
+  background-image: url("../images/pexels-markus-winkler-13734676.jpg");
+  background-size: cover;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 0 20%;
+}
+.contact-top > h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 55px;
+}
+.contact-mid-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-section {
+  width: 600px;
+  border: rgb(201, 199, 199) solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 60px;
+}
+.right-section {
+  width: 600px;
+  border: rgb(201, 199, 199) solid 1px;
+  padding: 70px;
+}
+.left-section > h1 {
+  font-weight: lighter;
+  font-size: 25px;
+  color: rgb(75, 73, 73);
+  margin-bottom: 35px;
+}
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(230, 226, 226);
+  padding: 15px 20px;
+}
+.email-icon {
+  font-size: 20px;
+  margin-right: 15px;
+  color: rgb(182, 180, 180);
+}
+.input-section > input {
+  border: none;
+  font-size: 15px;
+  width: 350px;
+  outline: none;
+}
+.left-section > textarea {
+  font-size: 14px;
+  width: 425px;
+  outline: none;
+  padding: 30px;
+  height: 200px;
+  margin-top: 25px;
+  border: 1px solid rgb(230, 226, 226);
+  resize: vertical;
+}
+.left-section > button {
+  padding: 15px 185px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  margin-top: 30px;
+  background-color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.left-section > button:hover {
+  background-color: rgb(99, 99, 233);
+}
+.contact-bottom {
+  padding: 90px;
+}
+.error-message {
+  text-align: left;
+  color: red;
+  margin-top: 10px;
+  width: 100%;
+  margin-left: 40px;
+}

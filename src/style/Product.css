@@ -1,0 +1,42 @@
+.image > img {
+  width: 300px;
+  height: 300px;
+  transition: 0.5s;
+}
+.image > img:hover {
+  transform: scale(1.1);
+}
+.image {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.product-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  padding: 0 10px;
+}
+.total-product {
+  width: 300px;
+  margin: 30px 40px;
+  box-shadow: 5px 5px 20px rgb(218, 216, 216);
+  cursor: pointer;
+}
+.product-name > p {
+  color: rgb(165, 164, 164);
+  font-size: 15px;
+  width: 250px;
+}
+.heartIcon {
+  color: rgb(179, 175, 175);
+  font-size: 18px;
+  cursor: pointer;
+}
+.total-product > p {
+  color: rgb(105, 102, 102);
+  font-size: 15px;
+  padding: 0 10px;
+  margin-bottom: 12px;
+}

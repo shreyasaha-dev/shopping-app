@@ -1,0 +1,22 @@
+.contact-details-right {
+  width: 300px;
+}
+.contact-details-right > h3 {
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+.contact-details-right > p {
+  color: gray;
+  font-size: 16px;
+}
+.contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 50px 0;
+}
+.contact-details > span {
+  font-size: 20px;
+  margin-right: 30px;
+  color: rgb(114, 112, 112);
+}

@@ -1,0 +1,41 @@
+.wish-product > img {
+  width: 90px;
+  height: 90px;
+}
+.wish-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+  border-bottom: 1px gray solid;
+}
+.cross-icon {
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: white;
+  font-weight: bold;
+}
+.wish-product > h5 {
+  font-size: 16px;
+  color: gray;
+}
+.add-cart {
+  padding: 10px 20px;
+  background-color: rgb(99, 99, 233);
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.add-cart:hover {
+  background-color: rgb(61, 61, 247);
+}
+.wish-product > p {
+  min-width: 350px;
+  max-width: 350px;
+  text-align: center;
+}

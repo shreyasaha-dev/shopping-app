@@ -1,0 +1,23 @@
+.footer-section {
+  background-color: rgb(43, 42, 42);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer-section > p {
+  font-size: 14px;
+  color: rgb(180, 176, 176);
+  margin-top: 10px;
+}
+.icon {
+  font-size: 35px;
+  color: rgb(196, 191, 191);
+  margin: 0 5px;
+  transition: 0.4s;
+}
+.icon:hover {
+  cursor: pointer;
+  color: white;
+}

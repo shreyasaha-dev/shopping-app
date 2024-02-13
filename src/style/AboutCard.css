@@ -1,0 +1,7 @@
+.about-card-details > p {
+  width: 600px;
+  color: rgb(145, 144, 144);
+  line-height: 1.7;
+  font-size: 15px;
+  margin-top: 20px;
+}

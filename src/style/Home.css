@@ -1,0 +1,38 @@
+.total-home-section {
+  background-image: url("../images/pexels-andrea-musto-14685218.jpg");
+  background-size: cover;
+  background-position: 0 70%;
+  height: 85.7vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mid-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 70px 150px 0;
+}
+.mid-section > h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+  margin: 20px 0;
+}
+.mid-section > h2 {
+  font-size: 25px;
+  color: rgb(87, 85, 85);
+}
+.mid-section > button {
+  background-color: rgb(99, 99, 233);
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mid-section > button:hover {
+  background-color: rgb(77, 77, 233);
+}

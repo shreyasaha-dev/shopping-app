@@ -1,0 +1,29 @@
+.total-about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.total-about-section > h1 {
+  font-size: 50px;
+  font-family: "DM Serif Display", serif;
+  margin-top: 100px;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin-top: 100px;
+}
+.about-story-section > img {
+  width: 300px;
+  height: 300px;
+  box-shadow: 8px -8px 20px rgb(145, 142, 142);
+}
+.about-mission-section > img {
+  width: 300px;
+  height: 300px;
+  box-shadow: -8px 8px 20px rgb(145, 142, 142);
+}
